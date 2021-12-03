@@ -10,7 +10,11 @@ dependencies:
   flutter:
     sdk: flutter
   # Dart common utils library. https://github.com/Sky24n/common_utils
-  common_utils: '>=2.0.2 <3.0.0'
+  #  common_utils: '>=2.0.2 <3.0.0'
+  common_utils:
+    git:
+      url: git://github.com/HuangShengHuan/common_utils.git
+      ref: master
   # https://github.com/Sky24n/sp_util
   sp_util: '>=2.0.3 <3.0.0'
   # https://github.com/tekartik/synchronized.dart
